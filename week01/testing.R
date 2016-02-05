@@ -1,3 +1,5 @@
+# user library ADSFou.. before going on
+library(SDSFoundations)
 bike = BikeData
 table(bike$cyc_freq)
 male_bikers = bike[bike$gender=='M',]
