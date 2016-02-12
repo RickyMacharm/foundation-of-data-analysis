@@ -17,3 +17,18 @@ maleage = animaldata$Age.Intake[animaldata$Sex == 'Male']
 # number of bins in histogram
 hist(femaleage, breaks=18)
 
+# finding an old male dog
+max(maleage)
+
+# finding it's id (=415) and all data
+which(animaldata$Age.Intake == 17)
+animaldata[415,]
+
+# finding mean, median, standard deviation and five number summary
+mean(animaldata$Age.Intake)
+median(animaldata$Age.Intake)
+sd(animaldata$Age.Intake)
+fivenum(animaldata$Age.Intake)
+
+
+
